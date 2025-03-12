@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square-card {
+    background-color: #333;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.icons-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #bbb;
+}
+
+.icon-right {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #bbb;
+}
+
+.info-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ua-box {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #aaa;
+}
+
+.season-box {
+    background-color: #555;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.hd-box {
+    background-color: #333;
+    color: #fff;
+    padding: 3px 7px;
+    font-size: 12px;
+    border: 2px solid #aaa;
+    border-radius: 12px;
+}
+

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.video-card {
+    background-color: #333; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 640px; 
+    display: flex;
+    flex-direction: row; 
+    margin: 10px;
+    overflow: hidden;
+}
+
+.video-thumbnail {
+    width: 320px; 
+    height: 180px;
+    object-fit: cover;
+}
+
+.video-details {
+    padding: 10px;
+    flex: 1; 
+    color: #fff; 
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+
+.video-info {
+    display: flex;
+    font-size: 14px;
+    color: #aaa;
+    margin: 10px 0;
+}
+
+.video-info .view-count,
+.video-info .upload-time {
+    margin-right: 10px;
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.channel-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    background-color: #bbb; 
+    margin-right: 10px;
+}
+
+.channel-name {
+    font-size: 14px;
+    color: #aaa;
+}
+
